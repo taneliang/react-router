@@ -95,6 +95,7 @@ const RouteContext = React.createContext<RouteContextObject>({
   pathname: '',
   route: null
 });
+export const __RouteContext = RouteContext;
 
 interface RouteContextObject {
   outlet: React.ReactElement | null;
